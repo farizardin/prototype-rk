@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SIMKWU</title>
+    <title>SI Lomba</title>
     <meta name="description" content="Website untuk kewirausahaan mahasiswa">
-    <meta name="author" content="SIMKWU ITS">
+    <meta name="author" content="SI Lomba">
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font Awesome -->
@@ -175,9 +175,9 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4" style="min-height: 450px !important;">
         <!-- Brand Logo -->
         <a href="Dashboard.html" class="brand-link">
-            <img src="assets/img/logo.png" alt="Logo SIMKWU ITS" class="brand-image img-circle elevation-3"
+            <img src="assets/img/logo.png" alt="Logo SI Lomba" class="brand-image img-circle elevation-3"
                 style="opacity: .8">
-            <span class="brand-text font-weight-light">SIMKWU ITS</span>
+            <span class="brand-text font-weight-light">SI Lomba</span>
         </a>
 
         <!-- Sidebar -->
@@ -265,10 +265,9 @@
                             <!-- /.card-header -->
                             <div class="card-body">
                                 <div>
-                                    <a style="float:right"
-                                        onclick="proposalConfirm('KelolaAkun.html')"
-                                        href="#!" style="border-radius:0px !important;"
-                                        class="btn btn-primary btn-sm"></i>Tambah User</a></div>
+                                    <a style="float:right" onclick="proposalConfirm('KelolaAkun.html')" href="#!"
+                                        style="border-radius:0px !important;" class="btn btn-primary btn-sm"></i>Tambah
+                                        User</a></div>
 
                             </div>
                             <table id="example1" class="table table-bordered table-striped table-hover"
@@ -282,80 +281,90 @@
                                 </thead>
                                 <tbody>
 
-                                    <!-- <?php $i = 1; foreach($proposal_data as $row){   ?> -->
                                     <tr>
-                                        <td style="vertical-align:middle;"><?php echo $i; ?></td>
+                                        <td style="vertical-align:middle;">1</td>
                                         <td style=" text-align:left; ">
                                             <p><b>NAMA</b>: Fariz<br>
-                                                <b>USERNAME</b>: farizardini></i><br>
+                                                <b>USERNAME</b>: farizardin</i><br>
                                                 <b>ALAMAT</b>: Disini aja<br>
                                                 <b>ROLE</b>: Admin<br>
                                             </p>
                                         </td>
                                         <td style="vertical-align:middle; ">
-                                            <form method="post" action="">
-                                                <input type="hidden" name="id_proposal" value="">
-                                                <a onclick="deleteConfirm('KelolaAkun.html')"
-                                                    href="#!" style="border-radius:0px !important;"
-                                                    class="btn btn-danger btn-sm"></i>Hapus</a>
-                                            </form>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                            <td style="vertical-align:middle;"><?php echo $i; ?></td>
-                                            <td style=" text-align:left; ">
-                                                <p><b>NAMA</b>: Fariz<br>
-                                                    <b>USERNAME</b>: farizardini></i><br>
-                                                    <b>ALAMAT</b>: Disini aja<br>
-                                                    <b>ROLE</b>: Admin<br>
-                                                </p>
-                                            </td>
-                                            <td style="vertical-align:middle; ">
-                                                <form method="post" action="">
-                                                    <input type="hidden" name="id_proposal" value="">
-                                                    <a onclick="deleteConfirm('KelolaAkun')"
-                                                        href="#!" style="border-radius:0px !important;"
-                                                        class="btn btn-danger btn-sm"></i>Hapus</a>
-                                                </form>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                                <td style="vertical-align:middle;"><?php echo $i; ?></td>
-                                                <td style=" text-align:left; ">
-                                                    <p><b>NAMA</b>: Fariz<br>
-                                                        <b>USERNAME</b>: farizardini></i><br>
-                                                        <b>ALAMAT</b>: Disini aja<br>
-                                                        <b>ROLE</b>: Admin<br>
-                                                    </p>
-                                                </td>
-                                                <td style="vertical-align:middle; ">
-                                                    <form method="post" action="">
-                                                        <input type="hidden" name="id_proposal" value="">
-                                                        <a onclick="deleteConfirm('KelolaAkun')"
-                                                            href="#!" style="border-radius:0px !important;"
-                                                            class="btn btn-danger btn-sm"></i>Hapus</a>
-                                                    </form>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                    <td style="vertical-align:middle;"><?php echo $i; ?></td>
-                                                    <td style=" text-align:left; ">
-                                                        <p><b>NAMA</b>: Fariz<br>
-                                                            <b>USERNAME</b>: farizardini></i><br>
-                                                            <b>ALAMAT</b>: Disini aja<br>
-                                                            <b>ROLE</b>: Admin<br>
-                                                        </p>
-                                                    </td>
-                                                    <td style="vertical-align:middle; ">
-                                                        <form method="post" action="">
+                                            <!-- <form method="post" action="">
                                                             <input type="hidden" name="id_proposal" value="">
                                                             <a onclick="deleteConfirm('KelolaAkun')"
                                                                 href="#!" style="border-radius:0px !important;"
                                                                 class="btn btn-danger btn-sm"></i>Hapus</a>
-                                                        </form>
-                                                    </td>
-                                                </tr>
-                                    <!-- <?php $i++;} ?> -->
+                                                        </form> -->
+                                            <a href="DetailUserAdmin.html"><button type="submit"
+                                                    class="btn btn-primary btn-sm" style="font-size:9pt"
+                                                    title="Detail"><i style="font-size:11pt"
+                                                        class="fa fa-info-circle"></i> Detail </button></a>
+                                            <a href="EditUserAdmin.html"><button type="button" class="btn btn-info btn-sm"
+                                                    style="font-size:9pt" title="edit"><i style="font-size:11pt"
+                                                        class="fa fa-edit"></i> Sunting</button></a>
+                                            <a onclick="deleteConfirm('KelolaAkun.html')" href="#!"
+                                                style="font-size:9pt" class="btn btn-danger btn-sm"><i
+                                                    style="font-size:11pt" class="fa fa-trash"></i> Hapus</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:middle;">2</td>
+                                        <td style=" text-align:left; ">
+                                            <p><b>NAMA</b>: Edwin<br>
+                                                <b>USERNAME</b>: winwinwin</i><br>
+                                                <b>ALAMAT</b>: Disini aja<br>
+                                                <b>ROLE</b>: Pengguna<br>
+                                            </p>
+                                        </td>
+                                        <td style="vertical-align:middle; ">
+                                            <!-- <form method="post" action="">
+                                                            <input type="hidden" name="id_proposal" value="">
+                                                            <a onclick="deleteConfirm('KelolaAkun')"
+                                                                href="#!" style="border-radius:0px !important;"
+                                                                class="btn btn-danger btn-sm"></i>Hapus</a>
+                                                        </form> -->
+                                            <a href="DetailUserAdmin.html"><button type="submit"
+                                                    class="btn btn-primary btn-sm" style="font-size:9pt"
+                                                    title="Detail"><i style="font-size:11pt"
+                                                        class="fa fa-info-circle"></i> Detail </button></a>
+                                            <a href="EditUserAdmin.html"><button type="button" class="btn btn-info btn-sm"
+                                                    style="font-size:9pt" title="edit"><i style="font-size:11pt"
+                                                        class="fa fa-edit"></i> Sunting</button></a>
+                                            <a onclick="deleteConfirm('KelolaAkun.html')" href="#!"
+                                                style="font-size:9pt" class="btn btn-danger btn-sm"><i
+                                                    style="font-size:11pt" class="fa fa-trash"></i> Hapus</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:middle;">3</td>
+                                        <td style=" text-align:left; ">
+                                            <p><b>NAMA</b>: Jadid<br>
+                                                <b>USERNAME</b>: didaj</i><br>
+                                                <b>ALAMAT</b>: Disini aja<br>
+                                                <b>ROLE</b>: Admin<br>
+                                            </p>
+                                        </td>
+                                        <td style="vertical-align:middle; ">
+                                            <!-- <form method="post" action="">
+                                                            <input type="hidden" name="id_proposal" value="">
+                                                            <a onclick="deleteConfirm('KelolaAkun')"
+                                                                href="#!" style="border-radius:0px !important;"
+                                                                class="btn btn-danger btn-sm"></i>Hapus</a>
+                                                        </form> -->
+                                            <a href="DetailUserAdmin.html"><button type="submit"
+                                                    class="btn btn-primary btn-sm" style="font-size:9pt"
+                                                    title="Detail"><i style="font-size:11pt"
+                                                        class="fa fa-info-circle"></i> Detail </button></a>
+                                            <a href="EditUserAdmin.html"><button type="button" class="btn btn-info btn-sm"
+                                                    style="font-size:9pt" title="edit"><i style="font-size:11pt"
+                                                        class="fa fa-edit"></i> Sunting</button></a>
+                                            <a onclick="deleteConfirm('KelolaAkun.html')" href="#!"
+                                                style="font-size:9pt" class="btn btn-danger btn-sm"><i
+                                                    style="font-size:11pt" class="fa fa-trash"></i> Hapus</a>
+                                        </td>
+                                    </tr>
                                     </tfoot>
                             </table>
                         </div>
@@ -448,7 +457,7 @@
     </div>
     </div>
     <footer class="main-footer" style="text-align:center;">
-        <strong>Copyright &copy; 2019 SIMKWU ITS.</strong>
+        <strong>Copyright &copy; 2019 SI Lomba.</strong>
         All rights reserved.
         <!-- Scroll to Top Button-->
         <a class="scroll-to-top rounded" href="#page-top">
@@ -537,14 +546,14 @@
             });
         });
     </script>
-        <script>
-    
-                function proposalConfirm(url){
-                    $('#msform').attr('action', url);
-                    $('#confirmModal').modal();
-                }
-                function deleteConfirm(url){
-                    $('#btn-tolak').attr('href', url);
-                    $('#tolakModal').modal();
-                }
-            </script>
+    <script>
+
+        function proposalConfirm(url) {
+            $('#msform').attr('action', url);
+            $('#confirmModal').modal();
+        }
+        function deleteConfirm(url) {
+            $('#btn-tolak').attr('href', url);
+            $('#tolakModal').modal();
+        }
+    </script>

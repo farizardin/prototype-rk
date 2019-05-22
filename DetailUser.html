@@ -121,77 +121,85 @@
 </head>
 
 <body>
-    <div class="container" style="min-height:30rem;">
-        <div style="margin-top:8rem">
-            <div class="row" style="width:90%; margin:auto;">
-                <div class="col-1" style="max-width:1rem!important;background-color:orange;">
-                </div>
-                <div class="col-2" style="background-color:#184674;min-width:15rem;">
-                    <h2 class="mbr-bold" style="color:white; margin-left:8%;">Lomba</h2>
-                </div>
-            </div>
-            <div style="margin-top:1rem;width:100%;">
-                <h1 style="color:#184674;margin:auto;width:90%;">Ini adalah Contoh
-                    lomba</h1>
-                <div style="color:#184674;margin:auto;width:85%;margin-top:1rem;"><i>Kategori : Teknologi</i></div>
-            </div>
-            <div class="row">
-                <div class="col-12" style="align:center;">
-                    <div class="image-mapping" style="margin:auto;">
-                        <div class="gallery" style="margin:auto;margin-top:1rem;">
-                            <a target="_blank" href="">
-                                <img src="assets/images/slide_2.jpeg" alt="Cinque Terre">
-                            </a>
+    <section class="content" style="background: white;margin-top: 5rem">
+        <div class="row">
+            <div class="col">
+                <div class="card table-responsive" style="border-radius: 0px !important;">
+                    <div class="card-header" style="width:60% !important; margin:auto;">
+                        <div style="margin-bottom:2rem;">
+                            <h3>Detail User</h3>
                         </div>
+                        <div style="margin:auto;display:flex;align-items:center;justify-content:center;">
+                            <img style="width: 200px;height: 200px;background-position: center center;background-repeat: no-repeat;margin-bottom:2rem;" src="assets/img/hehe.jpg" alt="">
+                        </div>
+                        <div>
+                            <a onclick="deleteConfirm('index.html')" href="#"><button type="button" class="btn btn-secondary  btn-sm" style="float:right;border-radius:0px !important;margin-bottom:2rem;">Hapus</button></a>
+                            <a href="EditUser.html"><button type="button" class="btn btn-primary  btn-sm" style="float:right;border-radius:0px !important;margin-bottom:2rem;">Edit</button></a>
+                        </div>
+                        <table class="table" width="100%">
+                            <tbody>
+                                <tr>
+                                    <th style="width:30%">Nama</th>
+                                    <th style="width:5%">:</th>
+                                    <td>Fariz Ardin Adhiyaksa
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th style="width:30%">Username</th>
+                                    <th style="width:5%">:</th>
+                                    <td>farizardin
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th style="width:30%">No. HP/Telp</th>
+                                    <th style="width:5%">:</th>
+                                    <td>080800808080
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th style="width:30%">Email</th>
+                                    <th style="width:5%">:</th>
+                                    <td>fariz.ardin@gmail.com
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th style="width:30%">Alamat</th>
+                                    <th style="width:5%">:</th>
+                                    <td>Disini aja
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
+                    <!-- /.card-header -->
                 </div>
-                <div style="margin-top:1rem;width:100%">
-                    <div style="width:80%; margin:auto">
-                        <h3>Informasi Lomba</h3><br>
-                        <strong>Nama Lomba</strong>: Makan Kerupuk <br>
-                        <strong>Pendaftaran</strong>: 12 Mei 2019 <br>
-                        <strong>Lokasi Lomba</strong>: Informatika <br>
-                        <strong>Waktu Pelaksanaan</strong>: 20 Mei 2019 <br>
-                        <strong>Kontak</strong>: Fariz (08080808080) <br><br>
-                        Karangan ini berisi gambaran mengenai suatu hal/keadaan sehingga pembaca seolah-olah melihat,
-                        mendengar, atau merasakan hal tersebut.
-
-                        Contoh deskripsi berisi fakta:
-
-                        Hampir semua pelosok Mentawai indah. Di empat kecamatan masih terdapat hutan yang masih perawan.
-                        Hutan ini menyimpan ratusan jenis flora dan fauna. Hutan Mentawai juga menyimpan anggrek aneka
-                        jenis dan fauna yang hanya terdapat di Mentawai. Siamang kerdil, lutung Mentawai dan beruk
-                        Simakobu adalah contoh primata yang menarik untuk bahan penelitian dan objek wisata.
-
-                        Contoh deskripsi berupa fiksi:
-
-                        Salju tipis melapis rumput, putih berkilau diseling warna jingga; bayang matahari senja yang
-                        memantul. Angin awal musim dingin bertiup menggigilkan, mempermainkan daun-daun sisa musim gugur
-                        dan menderaikan bulu-bulu burung berwarna kuning kecoklatan yang sedang meloncat-loncat dari
-                        satu ranting ke ranting yang lain.
-
-                        Topik yang tepat untuk deskripsi misalnya: Keindahan Bukit Kintamani, Suasana pelaksanaan,
-                        Promosi, Kompetensi Siswa SMK Tingkat Nasional, Keadaan ruang praktik, Keadaan daerah yang
-                        dilanda bencana.
-
-                        Langkah menyusun deskripsi: Tentukan objek atau tema yang akan dideskripsikan, Tentukan tujuan,
-                        Tentukan aspek-aspek yang akan dideskripsikan dengan melakukan pengamatan, Susunlah aspek-aspek
-                        tersebut ke dalam urutan yang baik, apakah urutan lokasi, urutan waktu, atau urutan menurut
-                        kepentingan, Kembangkan kerangka menjadi deskripsi
-                    </div>
-                </div>
-                <div style="margin-top:1rem;width:100%">
-                    <div style="width:80%; margin:auto">
-                        <form action="/action_page.php" id="usrform">
-                            <input type="text" style="margin-top: 2rem;" class="form-control" placeholder="Masukkan Nama" name="usrname">
-                            <textarea name="comment" class="form-control" style="margin-top: 1rem;width:100%;height: 15rem; margin-bottom: 1rem;" placeholder="Masukkan Komentar atau pertanyaan disini" form="usrform"></textarea>
-                            <input class="btn btn-primary btn-sm" type="submit" value="Kirim" style="margin-bottom: 3rem;">
-                        </form>
-                    </div>
-                </div>
+                <div class="modal fade" id="tolakModal" tabindex="1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Hapus User</h5>
+                                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">Hapus User</div>
+                                    <div class="modal-footer">
+                                        <a id="btn-tolak" class="btn btn-primary" href="#">Hapus</a>
+                                        <button class="btn btn-secondary" type="button"
+                                            data-dismiss="modal">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <!-- /.card-body -->
             </div>
+            <!-- /.card -->
         </div>
-    </div>
+        <!-- /.col -->
+</div>
+<!-- /.row -->
+</section>
     <!-- 
 <section class="carousel slide cid-qYUh3YsMGA" data-interval="false" id="slider2-1x">
 </section> -->
@@ -272,6 +280,17 @@
     <script src="assets/formoid/formoid.min.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+    
+        function proposalConfirm(url){
+            $('#msform').attr('action', url);
+            $('#confirmModal').modal();
+        }
+        function deleteConfirm(url){
+            $('#btn-tolak').attr('href', url);
+            $('#tolakModal').modal();
+        }
+    </script>
 </footer>
 
 </html>
