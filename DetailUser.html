@@ -96,8 +96,19 @@
     div.image-mapping {
         width: 900px;
     }
+    div.splitter{
+      border-left: 4px solid orange;
+      height: 120px;
+    }
 
     @media screen and (max-width:718px) {
+
+        div.splitter {
+            /* border-left: solid orange; */
+            width: 80%;
+            height: 4px;
+            background: orange;
+        }
         div.gallery {
             margin: 20px;
             border: 1px solid #ccc;
@@ -218,12 +229,12 @@
 
 
                 </div>
-                <div style=" border-left: 4px solid orange; height: 120px;"></div>
+                <div class="splitter"></div>
                 <div class="col-md-4 col-sm-4" style="text-align: center; margin-top: 4%">
                     <p class="mbr-text mbr-fonts-style foot-text display-7">Departemen Informatika ITS</br>
                         <br></p>
                 </div>
-                <div style=" border-left: 4px solid orange; height: 120px;"></div>
+                <div class="splitter"></div>
                 <div align="center" class="col-sm-3 col-md-3">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6344527757465!2d112.7923604147897!3d-7.28236689474377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa130e0e90e5%3A0x6dd6cd59f2f1677d!2sPlaza+dr.+Angka!5e0!3m2!1sen!2sid!4v1545633785787"
